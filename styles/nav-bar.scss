@@ -1,1 +1,31 @@
 @import "main.scss";
+
+.nav-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    font-size: 12px;
+}
+
+.nav-menu button {
+    background-color: #e91e63;
+    border-style: none;
+    width: 80px;
+    height: 48px;
+    color: white;
+    border-radius: 48px;
+}
