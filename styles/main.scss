@@ -16,3 +16,19 @@ iframe {
 .footer iframe {
     height: 100px;
 }
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    background: rgb(175, 31, 129);
+    background: linear-gradient(
+        90deg,
+        rgba(175, 31, 129, 1) 0%,
+        rgba(226, 54, 114, 1) 100%
+    );
+    background-repeat: no-repeat;
+    color: white;
+}

@@ -17,6 +17,13 @@ iframe {
   height: 100px;
 }
 
+.title-content body {
+  background: rgb(33, 34, 37);
+  background: linear-gradient(180deg, rgb(33, 34, 37) 0%, rgb(50, 52, 55) 20%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 body {
   background: rgb(33, 34, 37);
   background: linear-gradient(180deg, rgb(33, 34, 37) 0%, rgb(50, 52, 55) 20%);

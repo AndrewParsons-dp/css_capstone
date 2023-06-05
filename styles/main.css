@@ -15,4 +15,16 @@ iframe {
 
 .footer iframe {
   height: 100px;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  background: rgb(175, 31, 129);
+  background: linear-gradient(90deg, rgb(175, 31, 129) 0%, rgb(226, 54, 114) 100%);
+  background-repeat: no-repeat;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
